@@ -14,15 +14,7 @@ const author = { name: "Ann Leckie", age: 58 };
 console.log(appreciateAuthor(author)); // Outputs: Hello, Ann Leckie !! I am eternally grateful that you have lived 58 years of life, all to write amazing books just for me! *evil yet appreciative grin*
 
 
-//problem 3
-function reverseThatAlienExperimentArray(arr) {
-    return arr.reverse();
-}
-console.log(reverseThatAlienExperimentArray([626, 624, 619])); // Outputs: [619, 624, 626]
-console.log(reverseThatAlienExperimentArray(["Stitch", "Angel", "Splodyhead"])); // Outputs: ["Splodyhead", "Angel", "Stitch"]
-
-
-//problem 4 - THE FINAL ONE
+//problem 3 - THE FINAL ONE
 const stitch = {
     name: "Stitch",
     code: 626,
