@@ -21,4 +21,8 @@ Stitch is a great programmer but quite lazy, follow along with this README on yo
 
 
 ## PROBLEM ONE
+As you can see, Stitch is trying to evaluate his horrid vibe levels... not looking too great, I'm afraid. 
 
+Now, I know you see the errors. Let's try and use Typescript to establish rules first.
+1. use `: type` notation at the end of each to make it clear what type each parameter and the function itself. (use the examples listed here https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions if you don't know how.)
+2. now you can correct the errors 
