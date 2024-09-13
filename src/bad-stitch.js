@@ -1,8 +1,8 @@
 //problem 1
-function add(stitchNaughtyLevel, stitchGoodLevel) {
-    return stitchNaughtyLevel + stitchGoodLevel;
+function stitchBehaviourNVibesCalculator(stitchNaughtyLevel, stitchGoodLevel) {
+    return stitchGoodLevel - stitchNaughtyLevel;
 }
-console.log(add(9000, "10")); // Outputs: error!  Desired output: 8990
+console.log(stitchBehaviourNVibesCalculator("10", 9000)); // Outputs: error!  Desired output: -8990
 
 
 //problem 2
@@ -15,11 +15,11 @@ console.log(appreciateAuthor(author)); // Outputs: Hello, Ann Leckie !! I am ete
 
 
 //problem 3
-function reverseAlienExperimentArray(arr) {
+function reverseThatAlienExperimentArray(arr) {
     return arr.reverse();
 }
-console.log(reverseArray([626, 624, 619])); // Outputs: [619, 624, 626]
-console.log(reverseArray(["Stitch", "Angel", "Splodyhead"])); // Outputs: ["Splodyhead", "Angel", "Stitch"]
+console.log(reverseThatAlienExperimentArray([626, 624, 619])); // Outputs: [619, 624, 626]
+console.log(reverseThatAlienExperimentArray(["Stitch", "Angel", "Splodyhead"])); // Outputs: ["Splodyhead", "Angel", "Stitch"]
 
 
 //problem 4 - THE FINAL ONE
@@ -33,7 +33,7 @@ const stitch = {
 const sparky = {
     name: "Splodyhead",
     code: 619,
-    creator: "Jumba Jookiba",
+    maker: "Jumba Jookiba",
     episode: "Lilo & Stitch: The Series, Episode 11"
 };
 
@@ -41,7 +41,7 @@ const angel = {
     name: "Angel",
     code: 624,
     creator: "Jumba Jookiba",
-    episode: "Lilo & Stitch: The Series, Episode 31"
+    esipode: "Lilo & Stitch: The Series, Episode 31
 };
 
 function getSuperTopSecretInfoOnExperimentsTotallyDidNotStealFromJumba(experiment) {
