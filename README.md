@@ -58,3 +58,9 @@ This one is a doozy. Stitch has been snooping around Jumba's lab again and stole
 
 1. try and use Typescript to fix this and guide your debugging
 2. check check the "solutions" branch if you get stuck!
+
+
+## the end...
+Thank you for helping Stitch! He was attempting to follow along but well...  
+![stitch sand castle](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNldzU0cDR2MWVrNmNlZ2t0cWpncjBzNXV0NWJ1NDcyaDJoN2llcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HkNPbfRhisIH6/giphy.gif)  
+Hopefully, you learned something or maybe you just needed a refresher. Either way. Well done for trying! Bye, now!
