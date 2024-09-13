@@ -1,43 +1,50 @@
 //problem 1
-function add(a, b) {
-    return a + b;
+function add(stitchNaughtyLevel, stitchGoodLevel) {
+    return stitchNaughtyLevel + stitchGoodLevel;
 }
-console.log(add(5, "10")); // Outputs: 510 (string concatenation)
+console.log(add(9000, "10")); // Outputs: error!  Desired output: 8990
 
 
 //problem 2
-function greetUser(user) {
-    return `Hello, ${user.name}`;
+function appreciateAuthor(author) {
+    return `Hello, ${author.name} !! I am eternally grateful that you
+     have lived ${author.age} years of life, all to write amazing books just for me! *evil yet appreciative grin*`;
 }
-const user = { name: "John", age: 25 };
-console.log(greetUser(user)); // Outputs: Hello, John
+const author = { name: "Ann Leckie", age: 58 };
+console.log(appreciateAuthor(author)); // Outputs: Hello, Ann Leckie !! I am eternally grateful that you have lived 58 years of life, all to write amazing books just for me! *evil yet appreciative grin*
 
 
 //problem 3
-function buildName(firstName, lastName) {
-    return `${firstName} ${lastName || "Doe"}`;
-}
-
-console.log(buildName("John")); // Outputs: John Doe
-
-
-//problem 4
-function reverseArray(arr) {
+function reverseAlienExperimentArray(arr) {
     return arr.reverse();
 }
+console.log(reverseArray([626, 624, 619])); // Outputs: [619, 624, 626]
+console.log(reverseArray(["Stitch", "Angel", "Splodyhead"])); // Outputs: ["Splodyhead", "Angel", "Stitch"]
 
-console.log(reverseArray([1, 2, 3])); // Outputs: [3, 2, 1]
-console.log(reverseArray(["a", "b", "c"])); // Outputs: ["c", "b", "a"]
 
+//problem 4 - THE FINAL ONE
+const stitch = {
+    name: "Stitch",
+    code: 626,
+    creator: "Jumba Jookiba",
+    episode: "Lilo & Stitch: The Movie"
+};
 
-//problem 5
-function processPayment(payment) {
-    if (payment.type === "card") {
-        console.log(`Processing card payment of ${payment.amount}`);
-    } else if (payment.type === "cash") {
-        console.log(`Processing cash payment of ${payment.amount}`);
-    }
+const sparky = {
+    name: "Splodyhead",
+    code: 619,
+    creator: "Jumba Jookiba",
+    episode: "Lilo & Stitch: The Series, Episode 11"
+};
+
+const angel = {
+    name: "Angel",
+    code: 624,
+    creator: "Jumba Jookiba",
+    episode: "Lilo & Stitch: The Series, Episode 31"
+};
+
+function getSuperTopSecretInfoOnExperimentsTotallyDidNotStealFromJumba(experiment) {
+    return `${experiment.name} (Experiment ${experiment.code}) was created by ${experiment.creator} and appeared in "${experiment.episode}".`
 }
-processPayment({ type: "card", amount: 100 });
-
-
+console.log(getSuperTopSecretInfoOnExperimentsTotallyDidNotStealFromJumba(experiment))
